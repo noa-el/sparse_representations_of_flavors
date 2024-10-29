@@ -1,0 +1,13 @@
+An improved sparse component analysis (SCA) is developped. The SCA method is just defined in a framework before, but there no existing complete algorithm. We explore a compelte and automatical algorithm, then use it to deal with modal identification issue.
+
+The corresponding paper "Identification of modal parameters using an improved sparse blind source separation" has been submitted to MSSP.
+
+Due to SCA based on instaneous mixing model, so it is only able to process sensor data without time-delay. So I advice you processing the data recorded in rigid structure instead of flexible structure.
+
+I am so sorry that the function 'L1_norm_min' have a heavyly computational burden, which is always time-consuming. I will do my best to propose a new method for recovering sources instead of L1-norm minimization method.
+
+If you have some suggestions or found bugs, you can send me email. I greatly acknowledge your any  advices, which will make this software better. And I will do my best to improve it. My email address is 'yugang2010@163.com'.
+ 
+Thank you for reading it again.
+
+

@@ -1,0 +1,19 @@
+function q = write_question(labels2plot, l)
+    % create the name of the question
+    q = [];
+    for j = 1:length(labels2plot{l})
+        labels_names = [];
+        for i = 1:length(labels2plot{l}{j})
+            labels_names(i) = [labels_names(i) ' ' labels2plot{l}{1}{i}];
+        end
+        if j==1
+            q = labels_names(1);
+        else
+            q = [q ' vs ' labels_names(j)];
+        end
+    end
+
+    
+end
+
+
